@@ -1,4 +1,4 @@
-# Python Tutorial For Beginners In Hindi (With Notes)
+# Python Tutorial For Beginners (With Notes)
 
 - [ ] **Chapter 0: What is Programming?**
 
