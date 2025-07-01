@@ -1,0 +1,1 @@
+{"name":"Local: 1034_div3","url":"/run/media/basar/Others/MachineLearning/Basic_py_code/1034_div3.py","tests":[{"id":1751398311145,"input":"5\n2\n4\n5\n7\n100\n","output":"Alice\nBob\nAlice\nAlice\nBob\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/run/media/basar/Others/MachineLearning/Basic_py_code/1034_div3.py","group":"local","local":true}
