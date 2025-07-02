@@ -18,10 +18,30 @@
 
 # A. Blackboard Game
 
+# t=int(input())
+# for _ in range(t):
+#     n=int(input())
+#     if n%4==0:
+#         print("Bob")
+#     else:
+#         print("Alice")
+
 t=int(input())
 for _ in range(t):
     n=int(input())
-    if n%4==0:
-        print("Bob")
-    else:
-        print("Alice")
+    a=list(map(int,input().split()))
+    ans=['0'] * n 
+
+    cur_min=float('inf')
+    for i in range(n):
+        if a[i]<cur_min:
+            cur_min=a[i]
+            ans[i]='1'
+
+    cur_max=float('-inf')
+    for i in range(n-1,-1,-1):
+        if a[i]>cur_max:
+            cur_max=a[i]
+            ans[i]='1'
+
+    print(''.join(ans))
