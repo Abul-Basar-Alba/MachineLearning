@@ -14,7 +14,7 @@ import math
 t = int(input())
 for _ in range(t):
     k = int(input())
-    m = int(math.isqrt(k))  # integer square root — no float
+    m = int(math.isqrt(k))  
     res = k + m
     if math.isqrt(res) > m:
         res += 1
